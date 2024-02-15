@@ -127,4 +127,40 @@ main {
 
 /* coming soon */
 
-.best-offer {}
+.coming-soon {
+    display: flex;
+    padding: 100px 140px;
+    gap: 100px;
+    justify-content: center;
+}
+
+.best-offer h3 {
+    font-family: "Inter", sans-serif;
+    color: red;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.best-offer h1 {
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 22px;
+}
+
+.best-offer p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+.year h1 {
+    color: red;
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 16px;
+}
+
+.year p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    margin-bottom: 22px;
+}
