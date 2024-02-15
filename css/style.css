@@ -58,3 +58,45 @@ main {
     font-size: 48px;
     margin-bottom: 48px;
 }
+
+/* midnight-party */
+
+.midnight-party-wrapper {
+    margin-top: 120px;
+    padding: 0 140px 0 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/resources/Vector.png"), url("/resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 65px 130px;
+}
+
+.midnight-party {
+    width: 45%;
+}
+
+.midnight-party-title {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 24px;
+}
+
+.midnight-party-detail {
+    color: rgba(255, 255, 255, 0.807);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.join-btn {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+}
