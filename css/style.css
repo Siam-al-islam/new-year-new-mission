@@ -1,0 +1,60 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    padding: 0 140px 0 140px;
+}
+
+.banner {
+    font-family: "Merriweather", serif;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    text-align: center;
+    background-image: url("/resources/Rectangle\ 15.png"), url("/resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 230px 345px 175px 345px;
+
+}
+
+.new-year {
+    font-size: 32px;
+}
+
+.banner-title {
+    font-size: 72px;
+}
+
+/* main  */
+
+main {
+    padding: 0 140px 0 140px;
+}
+
+.off-section {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    padding: 120px 400px 0 400px;
+}
+
+
+.discount-text {
+    color: red;
+    font-size: 88px;
+}
+
+.holiday-deals {
+    margin-top: 48px;
+}
+
+.holiday-deals-text {
+    color: red;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.categories {
+    font-size: 48px;
+    margin-bottom: 48px;
+}
