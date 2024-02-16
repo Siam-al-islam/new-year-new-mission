@@ -103,7 +103,7 @@ main {
 /* address time date */
 
 .address-time-date {
-    margin: 120px 140px 120px 140px;
+    margin: 120px 140px;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -128,10 +128,12 @@ main {
 /* coming soon */
 
 .coming-soon {
+    background-image: url("/resources/Ellipse\ 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     padding: 100px 140px;
     gap: 100px;
-    justify-content: center;
 }
 
 .best-offer h3 {
@@ -148,6 +150,7 @@ main {
 }
 
 .best-offer p {
+    color: #555555;
     font-family: "Inter", sans-serif;
     font-size: 20px;
 }
@@ -160,7 +163,42 @@ main {
 }
 
 .year p {
+    color: #555555;
     font-family: "Inter", sans-serif;
     font-size: 20px;
     margin-bottom: 22px;
+}
+
+/* the best gift */
+
+.best-gift {
+    padding: 100px 140px;
+
+}
+
+.best-gift-header h3 {
+    color: red;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    display: grid;
+    margin-bottom: 16px;
+}
+
+.best-gift-header h1 {
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+
+.best-gift-header p {
+    font-family: "Inter", sans-serif;
+    color: #555555;
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+
+.gift-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
 }
