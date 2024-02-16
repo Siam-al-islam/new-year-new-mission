@@ -279,12 +279,28 @@ footer {
     display: flex;
 }
 
-.footer-address {}
-
 .contact {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
     margin-bottom: 10px;
+}
+
+footer hr {
+    border: 1px solid rgb(35, 35, 35);
+    margin: 40px 140px;
+}
+
+.social {
+    text-align: center;
+}
+
+
+.social-item {
+    margin-right: 24px;
+}
+
+.copyright {
+    display: flex;
 }
