@@ -202,3 +202,89 @@ main {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 24px;
 }
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    transition: .5s;
+}
+
+.item:hover {
+    box-shadow: 5px 5px 40px;
+}
+
+/* subscribe  */
+.subscribe {
+    background-color: rgba(255, 0, 0, 0.075);
+    padding: 80px 212px;
+    margin: 0px 140px 120px 140px;
+    border-radius: 16px;
+}
+
+.subscribe-detail h1 {
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+
+.subscribe-detail {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-detail p {
+    color: #555555;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.email-btn {
+    text-align: center;
+}
+
+.email-field {
+    font-size: 20px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    width: 400px;
+    padding: 25px 30px;
+}
+
+.subscribe-btn {
+    font-size: 20px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    color: white;
+    background-color: red;
+    padding: 24px 56px;
+}
+
+/* footer section  */
+
+footer {
+    color: white;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    background-color: #070211;
+    padding: 120px;
+}
+
+.contact-address {
+    display: flex;
+}
+
+.footer-address {}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 10px;
+}
