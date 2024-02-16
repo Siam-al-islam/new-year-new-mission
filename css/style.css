@@ -135,6 +135,12 @@ main {
     gap: 100px;
 }
 
+.coming-soon-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .best-offer h3 {
     font-family: "Inter", sans-serif;
     color: red;
