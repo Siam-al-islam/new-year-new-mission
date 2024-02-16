@@ -11,7 +11,7 @@ header {
     color: rgb(255, 255, 255);
     margin-top: 50px;
     text-align: center;
-    background-image: url("/resources/Rectangle\ 15.png"), url("/resources/Banner\ Image.png");
+    background-image: url("../resources/Rectangle\ 15.png"), url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 230px 345px 175px 345px;
@@ -65,7 +65,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/resources/Vector.png"), url("/resources/Vectorrr.png");
+    background-image: url("../resources/Vector.png"), url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 65px 130px;
@@ -127,7 +127,7 @@ main {
 /* coming soon */
 
 .coming-soon {
-    background-image: url("/resources/Ellipse\ 2.png");
+    background-image: url("../resources/Ellipse\ 2.png");
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
